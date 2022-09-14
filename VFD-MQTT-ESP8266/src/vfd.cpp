@@ -32,6 +32,7 @@ void vfdSetup(void)
 void vfdWrite(unsigned char c)
 {
 	static bool percentEncoding = false;
+	static bool firstDigit = false;
 	static unsigned char code = 0;
 
 	// Part for Windows-1252 character percent-encoding
@@ -39,18 +40,21 @@ void vfdWrite(unsigned char c)
 	{
 		percentEncoding = true; // An percent encoded character will be processed
 	}
-	else if (percentEncoding == true && code == 0) // First digit of the % code
+	else if (percentEncoding == true && firstDigit == false) // First digit of the % code
 	{
 		code = (ASCII_TO_HEX(c) << 4);
+		firstDigit = true;
+
 	}
-	else if (percentEncoding == true && code != 0) // Fulled code
+	else if (percentEncoding == true && firstDigit == true) // Fulled code
 	{
 		code |= ASCII_TO_HEX(c);
 
 		percentEncoding = false;
 
 		Serial1.write(code);
-		code = 0;
+
+		firstDigit = false;
 	}
 	else
 	{
