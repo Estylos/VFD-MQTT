@@ -1,0 +1,134 @@
+31584475160040
+PRJ_VFD-MQTT
+CAP_EEEFP1V331AP_G
+
+
+0
+2
+2
+PRJ_VFD-MQTT
+CAP_EEHZK1V101XP_D8
+
+
+0
+2
+2
+PRJ_VFD-MQTT
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+PRJ_VFD-MQTT
+ESP-12F
+
+
+0
+22
+22
+PRJ_VFD-MQTT
+Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+PRJ_VFD-MQTT
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+PRJ_VFD-MQTT
+L_SCDS124T-680M-N
+
+
+0
+2
+2
+PRJ_VFD-MQTT
+NINIGI_DC-005
+
+
+0
+3
+3
+PRJ_VFD-MQTT
+RJ45_Ninigi_GE
+1 port ethernet throughhole connector, https://en.ninigi.com/product/rj45ge/pdf
+RJ45 ethernet 8p8c
+0
+10
+9
+PRJ_VFD-MQTT
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+PRJ_VFD-MQTT
+SOD-123FL
+
+
+0
+2
+2
+PRJ_VFD-MQTT
+SOIC-16_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+PRJ_VFD-MQTT
+SOP-16_3.9x9.9mm_P1.27mm
+SOP, 16 Pin (https://www.diodes.com/assets/Datasheets/PAM8403.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+16
+16
+PRJ_VFD-MQTT
+SOT-23-5_HandSoldering
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+PRJ_VFD-MQTT
+SOT-363_SC-70-6_Handsoldering
+SOT-363, SC-70-6, Handsoldering
+SOT-363 SC-70-6 Handsoldering
+0
+6
+6
+PRJ_VFD-MQTT
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+PRJ_VFD-MQTT
+TO-263-5_TabPin3
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+10
+5
+PRJ_VFD-MQTT
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+PRJ_VFD-MQTT
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6

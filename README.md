@@ -28,6 +28,9 @@ The characters are sent directly by their number in the Windows-1252 code page (
 The VFD is powered at 12V, and its RS232 signals are converted to UART for use with the ESP8266. I chose to connect only the RX line which is the only one necessary for the operation of the screen. We use pin D4 of the WeMos in order to use the 2nd hardware UART link (Serial1) and thus keep the 1st serial link for the monitor.
 This circuit is easily made on perfboard.
 
+To push this project even further, I made a PCB with everything integrated on it. There is a buck converter for the 12V to 5V power supply, an LDO for the 5V to 3.3V, a CH340C for UART communication (serial monitor and programming), a MAX3232 for the RS-232 driver and the ESP8266 ESP-12F. The design of the ESP8266 / UART part is greatly inspired by the design of the WeMos D1 Mini.
+![](pcb_schematic.png)
+
 ## Operating
 
 An MQTT server (mosquitto on a remote server) manages the communication. When the Discord ".write" command with text is sent (not exceeding 40 characters and not containing non-Windows-1252 characters), the special characters in the message are encoded by the Python script with [percent encoding](https://en.wikipedia.org/wiki/Percent-encoding) (character % followed by the number of the character in the Windows-1252 table). This choice is made because special characters are sent in UTF-8 by default, and can be stored on 1, 2 or 3 bytes, which makes it much more complicated to handle with the ESP8266.
